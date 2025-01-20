@@ -1,9 +1,13 @@
+*{
+    font-family: Arial;
+}
 body {
     background-color: #c8e3ff;
     height: 100vw;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+
 }
 
 /*FORMAT THE RAINBOW RAYS & POSITION RAINBOW*/
@@ -57,7 +61,7 @@ body {
     height: 70%;
     background-color:white;
     border-radius: 0 0 20px 20px;
-    
+
 }
 #cloud1{
     position: absolute;
@@ -69,6 +73,24 @@ body {
     margin-top: -180px;
     margin-left: 280px;
 }
+
+/*CLOUD BOX TEXT SECTION */
+
+.cloudbox section{
+    margin-top: 120px;
+    padding: 15px;
+    height: 70%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: center;
+    
+}
+
+h2{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
 
 /*FORMAT THE CRAYON LINKS*/
 nav{
@@ -123,4 +145,15 @@ nav a:hover{
     height: 50px;
     width: 120px;
     background-repeat: no-repeat;
+}
+
+/*FOOTER */
+
+footer{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-top: -300px;
+    color: #5883ad;
+
+
 }
