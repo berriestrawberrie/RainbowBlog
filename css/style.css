@@ -1,0 +1,126 @@
+body {
+    background-color: #c8e3ff;
+    height: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/*FORMAT THE RAINBOW RAYS & POSITION RAINBOW*/
+.rainbow{
+    position: absolute;
+    top: 80px;
+    margin-left: 150px;
+}
+.red{
+    width: 600px;
+    height: 600px;
+    border: 30px solid #ff9f97;
+    border-bottom: 0;
+    border-radius:50% 50% 0 0;
+}
+
+.yellow{
+    margin-top: -600px;
+    margin-left: 20px;
+    width: 560px;
+    height: 560px;
+    border: 30px solid #faff97;
+    border-bottom: 0;
+    border-radius:50% 50% 0 0;
+}
+.green{
+    margin-top: -560px;
+    margin-left: 40px;
+    width: 520px;
+    height: 520px;
+    border: 30px solid #8ef3a3;
+    border-bottom: 0;
+    border-radius:50% 50% 0 0;
+}
+.blue{
+    margin-top: -520px;
+    margin-left: 60px;
+    width: 480px;
+    height: 480px;
+    border: 30px solid #8ac8ff;
+    border-bottom: 0;
+    border-radius:50% 50% 0 0;
+}
+
+/*FORMAT THE CLOUDBOX & POSITION CLOUDS*/
+.cloudbox{
+    position: absolute;
+    width:665px;
+    margin-left: 150px;
+    margin-top: 150px;
+    height: 70%;
+    background-color:white;
+    border-radius: 0 0 20px 20px;
+    
+}
+#cloud1{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: -180px;
+}
+#cloud2{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: 280px;
+}
+
+/*FORMAT THE CRAYON LINKS*/
+nav{
+    position: absolute;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-top: 500px;
+    justify-content: space-evenly;
+    z-index: 999;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family:Arial;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#redlink{
+    background-image: url(../images/red-crayon.png);
+    padding-top: 10px;
+    padding-left: 50px;
+    height: 50px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+#yelllink{
+    background-image: url(../images/yell-crayon.png);
+    padding-top: 10px;
+    padding-left: 47px;
+    height: 50px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+#greenlink{
+    background-image: url(../images/green-crayon.png);
+    padding-top: 10px;
+    padding-left: 48px;
+    height: 50px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+#bluelink{
+    background-image: url(../images/blue-crayon.png);
+    padding-top: 10px;
+    padding-left: 50px;
+    height: 50px;
+    width: 120px;
+    background-repeat: no-repeat;
+}
