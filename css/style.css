@@ -95,11 +95,10 @@ h2{
 /*FORMAT THE CRAYON LINKS*/
 nav{
     position: absolute;
-    display: inline-flex;
-    flex-wrap: wrap;
+
     margin-left: 150px;
     margin-top: 500px;
-    justify-content: space-evenly;
+
     z-index: 999;
     width: 70%;
 
@@ -127,7 +126,7 @@ footer{
 }
 
 ul{
-    width: 100%;
+    width: 600px;
     display: flex;
     justify-content: space-evenly;
 
