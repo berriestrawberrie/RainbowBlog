@@ -101,6 +101,7 @@ nav{
     margin-top: 500px;
     justify-content: space-evenly;
     z-index: 999;
+    width: 70%;
 
 }
 nav a{
@@ -114,39 +115,6 @@ nav a:hover{
     text-decoration: underline;
 }
 
-#redlink{
-    background-image: url(../images/red-crayon.png);
-    padding-top: 10px;
-    padding-left: 50px;
-    height: 50px;
-    width: 120px;
-    background-repeat: no-repeat;
-}
-#yelllink{
-    background-image: url(../images/yell-crayon.png);
-    padding-top: 10px;
-    padding-left: 47px;
-    height: 50px;
-    width: 120px;
-    background-repeat: no-repeat;
-}
-#greenlink{
-    background-image: url(../images/green-crayon.png);
-    padding-top: 10px;
-    padding-left: 48px;
-    height: 50px;
-    width: 120px;
-    background-repeat: no-repeat;
-}
-#bluelink{
-    background-image: url(../images/blue-crayon.png);
-    padding-top: 10px;
-    padding-left: 50px;
-    height: 50px;
-    width: 120px;
-    background-repeat: no-repeat;
-}
-
 /*FOOTER */
 
 footer{
@@ -156,4 +124,35 @@ footer{
     color: #5883ad;
 
 
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+li{
+    list-style-type: none;
+    width: 120px;
+}
+li a{
+    position: absolute;
+    margin-left: -74px;
+    margin-top: 10px;
+}
+
+/*STYLE THE BLOG HEADER2S*/
+#blogred{
+    background-color:#ff9f97;
+}
+#blogyellow{
+    background-color:#faff97;
+}
+#bloggreen{
+    background-color:#8ef3a3;
+}
+#blogblue{
+    background-color:#8ac8ff;
 }

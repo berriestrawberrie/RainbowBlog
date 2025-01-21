@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rainbow Blog</title>
     <!--Normalize CSS-->
-    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <!--Customize CSS-->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -15,10 +15,25 @@
     <header>
         <!--Navigation Section-->
         <nav>
-            <a href="#blogred"><div id="redlink"> Red</div></a>
-            <a href="#blogyellow"><div id="yelllink"> Yellow</div></a>
-            <a href="#bloggreen"><div id="greenlink"> Green</div></a>
-            <a href="#blogblue"><div id="bluelink"> Blue</div></a>
+            <ul>
+                <li>
+                    <img src="images/red-crayon.png" alt="crayon" title="red crayon">
+                    <a href="#blogred">Red</a> 
+                </li>
+                <li>
+                    <img src="images/yell-crayon.png" alt="crayon" title="yellow crayon">
+                    <a href="#blogyellow">Yellow</a> 
+                </li>
+                <li>
+                    <img src="images/green-crayon.png" alt="crayon" title="green crayon">
+                    <a href="#bloggreen">Green</a> 
+                </li>
+                <li>
+                    <img src="images/blue-crayon.png" alt="crayon" title="blue crayon">
+                    <a href="#blogblue">Blue</a> 
+                </li>
+            </ul>
+
         </nav>
 
     </header>
@@ -33,60 +48,67 @@
                 <div class="green"></div>
                 <div class="blue"></div>
             </div><!--END OF RAINBOW -->
-            <img src="../images/sunny-pastel.gif" alt="smiling sun" width="300">
+            <img src="images/sunny-pastel.gif" alt="yellow sun" width="300" title="Smiling Sun">
             
             <div class="cloudbox">
-                <img src="../images/clouds.png" alt="white clouds" id="cloud1">
-                <img src="../images/clouds.png" alt="white clouds" id="cloud2">
+                <img src="images/clouds.png" alt="clouds" id="cloud1" title="floating clouds">
+                <img src="images/clouds.png" alt="clouds" id="cloud2" title="floating clouds">
                 <!--BLOG TEXT CONTENT -->
                 <section>
                     <h1>The Emotions of Colors!</h1>
-                    What does your color mean?
+                    <p>What does your color mean?</p>
 
-                    <h2 style="background-color:#ff9f97;" id="blogred">Red!</h2>
-                    Some stuff about the color red?<br><br>
-                    <em>(TEXT CONTENT AI GENERATED)</em><br>
-                    The color red is vibrant and full of energy, evoking strong emotions and responses. It is often associated with passion, love,
+                    <h2 id="blogred">Red!</h2>
+                    <p>Some stuff about the color red?</p>
+                    <p><em>(TEXT CONTENT AI GENERATED)</em></p>
+
+                    <p>The color red is vibrant and full of energy, evoking strong emotions and responses. It is often associated with passion, love,
                      and excitement, making it a symbol of both romance and intensity. Red is also a color that commands attention, often used in
                       warning signs, stoplights, and emergency vehicles to indicate alertness and urgency. In nature, red is found in various 
                       striking forms, from fiery sunsets to ripened fruit, and it holds significance in many cultures. Whether representing power, 
                       danger, or warmth, red is a color that leaves a lasting impression, making it one of the most impactful hues in the spectrum.
-                    <h2 style="background-color:#faff97;" id="blogyellow">Yellow!</h2>
-                    Some stuf about the color yellow?<br><br>
-                    <em>(TEXT CONTENT AI GENERATED)</em><br>
-                    Yellow is a bright and cheerful color, often associated with happiness, optimism, and warmth. It is the color of sunshine,
+                    </p>
+
+                    <h2 id="blogyellow">Yellow!</h2>
+                    <p>Some stuf about the color yellow?</p>
+                    <p><em>(TEXT CONTENT AI GENERATED)</em></p>
+                    <p>Yellow is a bright and cheerful color, often associated with happiness, optimism, and warmth. It is the color of sunshine,
                      symbolizing light, energy, and positivity, and can instantly lift the mood of a space or person. In nature, yellow is seen 
                      in the petals of flowers, the ripeness of fruit, and the glow of autumn leaves, further reinforcing its joyful and inviting
                       qualities. Yellow also represents clarity and intellect, often used in contexts that encourage creativity and focus.
                        However, in some cultures, yellow can also carry cautionary or warning meanings, like in road signs or emergency alerts.
                         Overall, yellow's versatility and brightness make it a color that stands out, conveying both warmth and alertness.
-                    <h2 style="background-color:#8ef3a3;" id="bloggreen">Green!</h2>
-                    Some stuff about the color green?<br><br>
-                    <em>(TEXT CONTENT AI GENERATED)</em><br>
-                    Green is a color that embodies tranquility, growth, and renewal, often evoking a sense of peace and harmony. It is most commonly
+                    </p>
+
+                    <h2 id="bloggreen">Green!</h2>
+                    <p>Some stuff about the color green?</p>
+                    <p><em>(TEXT CONTENT AI GENERATED)</em></p>
+                    <p>Green is a color that embodies tranquility, growth, and renewal, often evoking a sense of peace and harmony. It is most commonly
                      associated with nature, representing the lushness of forests, the freshness of grass, and the vitality of plants. Green is 
                      known for its calming effect on the mind, making it a popular choice for creating soothing environments, such as in healthcare
                       settings or personal spaces. It also symbolizes balance and fertility, and in many cultures, green is linked to prosperity and
                        good fortune. Additionally, green can represent safety and go-ahead in traffic lights or signs, reinforcing its connection to
                         positive motion and progress. Its rich diversity, ranging from deep emerald to light mint, makes green a versatile color that
                          speaks to both stability and renewal.
-                    <h2 style="background-color:#8ac8ff;" id="blogblue">Blue!</h2>
-                    Some stuff about the color green?<br><br>
-                    <em>(TEXT CONTENT AI GENERATED)</em><br>
-                    Blue is a color that is often associated with calmness, serenity, and stability. It brings to mind the vastness of the sky 
+                    </p>
+
+                    <h2 id="blogblue">Blue!</h2>
+                    <p>Some stuff about the color green?</p>
+                    <p><em>(TEXT CONTENT AI GENERATED)</em></p>
+                    <p>Blue is a color that is often associated with calmness, serenity, and stability. It brings to mind the vastness of the sky 
                     and the depth of the ocean, evoking a sense of tranquility and peace. As a cool color, blue is known for its ability to lower
                      stress and promote relaxation, which is why it is commonly used in spaces intended for rest, such as bedrooms or spas. Beyond
                       its soothing qualities, blue also represents trust, loyalty, and wisdom, making it a popular choice in corporate logos and 
                       uniforms. Lighter blues can feel refreshing and open, while deeper blues suggest professionalism and authority. Whether 
                       reflecting the natural world or symbolizing reliability and confidence, blue is a versatile and universally loved color that
                        resonates deeply with both emotional and practical meanings.
+                    </p>
                    </section>
                 <!--END BLOG TEXT CONTENT-->
             </div>
         
             
-        </div>
-        <!--END OF WRAPPER FOR THE BLOG FORMAT-->
+        </div> <!--END OF WRAPPER FOR THE BLOG FORMAT-->
         
     </main>
 
